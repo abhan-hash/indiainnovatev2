@@ -1,0 +1,134 @@
+[
+  {
+    "week": 1,
+    "date": "2026-01-02T10:00:00",
+    "ward_id": "WARD-CP-01",
+    "total_score": 62.2,
+    "resolution_authenticity": 10.5,
+    "proactive_action_rate": 9.2,
+    "recurrence_prevention": 12.5,
+    "response_equity": 11.3,
+    "moral_alert_response": 8.6
+  },
+  {
+    "week": 2,
+    "date": "2026-01-09T10:00:00",
+    "ward_id": "WARD-CP-01",
+    "total_score": 60.2,
+    "resolution_authenticity": 12.1,
+    "proactive_action_rate": 8.2,
+    "recurrence_prevention": 11.8,
+    "response_equity": 9.6,
+    "moral_alert_response": 7.7
+  },
+  {
+    "week": 3,
+    "date": "2026-01-16T10:00:00",
+    "ward_id": "WARD-CP-01",
+    "total_score": 62.1,
+    "resolution_authenticity": 11.6,
+    "proactive_action_rate": 6.5,
+    "recurrence_prevention": 12.0,
+    "response_equity": 10.9,
+    "moral_alert_response": 9.6
+  },
+  {
+    "week": 4,
+    "date": "2026-01-23T10:00:00",
+    "ward_id": "WARD-CP-01",
+    "total_score": 59.2,
+    "resolution_authenticity": 9.7,
+    "proactive_action_rate": 9.6,
+    "recurrence_prevention": 13.0,
+    "response_equity": 8.9,
+    "moral_alert_response": 11.5
+  },
+  {
+    "week": 5,
+    "date": "2026-01-30T10:00:00",
+    "ward_id": "WARD-CP-01",
+    "total_score": 71.1,
+    "resolution_authenticity": 10.8,
+    "proactive_action_rate": 10.1,
+    "recurrence_prevention": 11.7,
+    "response_equity": 10.1,
+    "moral_alert_response": 11.1
+  },
+  {
+    "week": 6,
+    "date": "2026-02-06T10:00:00",
+    "ward_id": "WARD-CP-01",
+    "total_score": 60.9,
+    "resolution_authenticity": 14.1,
+    "proactive_action_rate": 9.1,
+    "recurrence_prevention": 10.4,
+    "response_equity": 13.2,
+    "moral_alert_response": 12.3
+  },
+  {
+    "week": 7,
+    "date": "2026-02-13T10:00:00",
+    "ward_id": "WARD-CP-01",
+    "total_score": 70.6,
+    "resolution_authenticity": 12.5,
+    "proactive_action_rate": 11.6,
+    "recurrence_prevention": 11.2,
+    "response_equity": 14.0,
+    "moral_alert_response": 13.2
+  },
+  {
+    "week": 8,
+    "date": "2026-02-20T10:00:00",
+    "ward_id": "WARD-CP-01",
+    "total_score": 68.6,
+    "resolution_authenticity": 13.6,
+    "proactive_action_rate": 12.6,
+    "recurrence_prevention": 14.1,
+    "response_equity": 11.3,
+    "moral_alert_response": 10.7
+  },
+  {
+    "week": 9,
+    "date": "2026-02-27T10:00:00",
+    "ward_id": "WARD-CP-01",
+    "total_score": 70.5,
+    "resolution_authenticity": 11.0,
+    "proactive_action_rate": 12.1,
+    "recurrence_prevention": 13.6,
+    "response_equity": 11.8,
+    "moral_alert_response": 12.4
+  },
+  {
+    "week": 10,
+    "date": "2026-03-06T10:00:00",
+    "ward_id": "WARD-CP-01",
+    "total_score": 72.6,
+    "resolution_authenticity": 14.4,
+    "proactive_action_rate": 10.7,
+    "recurrence_prevention": 13.5,
+    "response_equity": 13.3,
+    "moral_alert_response": 11.9
+  },
+  {
+    "week": 11,
+    "date": "2026-03-13T10:00:00",
+    "ward_id": "WARD-CP-01",
+    "total_score": 66.4,
+    "resolution_authenticity": 9.8,
+    "proactive_action_rate": 12.2,
+    "recurrence_prevention": 14.1,
+    "response_equity": 12.6,
+    "moral_alert_response": 10.6
+  },
+  {
+    "week": 12,
+    "date": "2026-03-20T10:00:00",
+    "ward_id": "WARD-CP-01",
+    "total_score": 69.6,
+    "resolution_authenticity": 15.4,
+    "proactive_action_rate": 11.4,
+    "recurrence_prevention": 13.1,
+    "response_equity": 10.2,
+    "moral_alert_response": 12.1
+  }
+]

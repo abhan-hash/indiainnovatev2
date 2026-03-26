@@ -1,0 +1,30 @@
+[
+  {
+    "zone_type": "inner_circle",
+    "income_proxy": "high",
+    "avg_resolution_days": 4.1,
+    "complaint_count": 180,
+    "ward_id": "WARD-CP-01"
+  },
+  {
+    "zone_type": "middle_ring",
+    "income_proxy": "medium",
+    "avg_resolution_days": 6.8,
+    "complaint_count": 220,
+    "ward_id": "WARD-CP-01"
+  },
+  {
+    "zone_type": "outer_roads",
+    "income_proxy": "medium",
+    "avg_resolution_days": 8.3,
+    "complaint_count": 310,
+    "ward_id": "WARD-CP-01"
+  },
+  {
+    "zone_type": "service_lanes",
+    "income_proxy": "low",
+    "avg_resolution_days": 17.4,
+    "complaint_count": 190,
+    "ward_id": "WARD-CP-01"
+  }
+]
