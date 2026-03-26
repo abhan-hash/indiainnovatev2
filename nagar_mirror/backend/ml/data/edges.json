@@ -1,0 +1,722 @@
+[
+  {
+    "id": "EDGE-001",
+    "source": "NODE-001",
+    "target": "NODE-024",
+    "type": "physical_flow",
+    "weight": 0.82,
+    "description": "Drain overflow saturates road subgrade"
+  },
+  {
+    "id": "EDGE-002",
+    "source": "NODE-024",
+    "target": "NODE-048",
+    "type": "risk_propagation",
+    "weight": 0.55,
+    "description": "Road subsidence exposes transformer cable conduit"
+  },
+  {
+    "id": "EDGE-003",
+    "source": "NODE-001",
+    "target": "NODE-024",
+    "type": "service_dependency",
+    "weight": 0.7,
+    "description": "Road drainage depends on this storm drain"
+  },
+  {
+    "id": "EDGE-004",
+    "source": "NODE-002",
+    "target": "NODE-041",
+    "type": "physical_flow",
+    "weight": 0.85,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-005",
+    "source": "NODE-003",
+    "target": "NODE-038",
+    "type": "physical_flow",
+    "weight": 0.79,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-006",
+    "source": "NODE-004",
+    "target": "NODE-037",
+    "type": "physical_flow",
+    "weight": 0.64,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-007",
+    "source": "NODE-005",
+    "target": "NODE-034",
+    "type": "physical_flow",
+    "weight": 0.55,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-008",
+    "source": "NODE-006",
+    "target": "NODE-047",
+    "type": "physical_flow",
+    "weight": 0.64,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-009",
+    "source": "NODE-007",
+    "target": "NODE-037",
+    "type": "physical_flow",
+    "weight": 0.82,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-010",
+    "source": "NODE-008",
+    "target": "NODE-029",
+    "type": "physical_flow",
+    "weight": 0.84,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-011",
+    "source": "NODE-009",
+    "target": "NODE-030",
+    "type": "physical_flow",
+    "weight": 0.66,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-012",
+    "source": "NODE-010",
+    "target": "NODE-030",
+    "type": "physical_flow",
+    "weight": 0.79,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-013",
+    "source": "NODE-011",
+    "target": "NODE-036",
+    "type": "physical_flow",
+    "weight": 0.42,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-014",
+    "source": "NODE-012",
+    "target": "NODE-046",
+    "type": "physical_flow",
+    "weight": 0.61,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-015",
+    "source": "NODE-013",
+    "target": "NODE-035",
+    "type": "physical_flow",
+    "weight": 0.57,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-016",
+    "source": "NODE-014",
+    "target": "NODE-044",
+    "type": "physical_flow",
+    "weight": 0.76,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-017",
+    "source": "NODE-015",
+    "target": "NODE-043",
+    "type": "physical_flow",
+    "weight": 0.84,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-018",
+    "source": "NODE-016",
+    "target": "NODE-038",
+    "type": "physical_flow",
+    "weight": 0.83,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-019",
+    "source": "NODE-017",
+    "target": "NODE-027",
+    "type": "physical_flow",
+    "weight": 0.63,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-020",
+    "source": "NODE-018",
+    "target": "NODE-041",
+    "type": "physical_flow",
+    "weight": 0.55,
+    "description": "Drain overflow risk to adjacent road"
+  },
+  {
+    "id": "EDGE-021",
+    "source": "NODE-023",
+    "target": "NODE-051",
+    "type": "risk_propagation",
+    "weight": 0.55,
+    "description": "Road damage near underground electrical infrastructure"
+  },
+  {
+    "id": "EDGE-022",
+    "source": "NODE-024",
+    "target": "NODE-062",
+    "type": "risk_propagation",
+    "weight": 0.24,
+    "description": "Road damage near underground electrical infrastructure"
+  },
+  {
+    "id": "EDGE-023",
+    "source": "NODE-025",
+    "target": "NODE-062",
+    "type": "risk_propagation",
+    "weight": 0.21,
+    "description": "Road damage near underground electrical infrastructure"
+  },
+  {
+    "id": "EDGE-024",
+    "source": "NODE-026",
+    "target": "NODE-052",
+    "type": "risk_propagation",
+    "weight": 0.36,
+    "description": "Road damage near underground electrical infrastructure"
+  },
+  {
+    "id": "EDGE-025",
+    "source": "NODE-027",
+    "target": "NODE-052",
+    "type": "risk_propagation",
+    "weight": 0.23,
+    "description": "Road damage near underground electrical infrastructure"
+  },
+  {
+    "id": "EDGE-026",
+    "source": "NODE-028",
+    "target": "NODE-056",
+    "type": "risk_propagation",
+    "weight": 0.34,
+    "description": "Road damage near underground electrical infrastructure"
+  },
+  {
+    "id": "EDGE-027",
+    "source": "NODE-029",
+    "target": "NODE-060",
+    "type": "risk_propagation",
+    "weight": 0.46,
+    "description": "Road damage near underground electrical infrastructure"
+  },
+  {
+    "id": "EDGE-028",
+    "source": "NODE-030",
+    "target": "NODE-058",
+    "type": "risk_propagation",
+    "weight": 0.54,
+    "description": "Road damage near underground electrical infrastructure"
+  },
+  {
+    "id": "EDGE-029",
+    "source": "NODE-031",
+    "target": "NODE-065",
+    "type": "risk_propagation",
+    "weight": 0.35,
+    "description": "Road damage near underground electrical infrastructure"
+  },
+  {
+    "id": "EDGE-030",
+    "source": "NODE-032",
+    "target": "NODE-058",
+    "type": "risk_propagation",
+    "weight": 0.45,
+    "description": "Road damage near underground electrical infrastructure"
+  },
+  {
+    "id": "EDGE-031",
+    "source": "NODE-033",
+    "target": "NODE-063",
+    "type": "risk_propagation",
+    "weight": 0.55,
+    "description": "Road damage near underground electrical infrastructure"
+  },
+  {
+    "id": "EDGE-032",
+    "source": "NODE-034",
+    "target": "NODE-049",
+    "type": "risk_propagation",
+    "weight": 0.45,
+    "description": "Road damage near underground electrical infrastructure"
+  },
+  {
+    "id": "EDGE-033",
+    "source": "NODE-035",
+    "target": "NODE-055",
+    "type": "risk_propagation",
+    "weight": 0.45,
+    "description": "Road damage near underground electrical infrastructure"
+  },
+  {
+    "id": "EDGE-034",
+    "source": "NODE-036",
+    "target": "NODE-057",
+    "type": "risk_propagation",
+    "weight": 0.6,
+    "description": "Road damage near underground electrical infrastructure"
+  },
+  {
+    "id": "EDGE-035",
+    "source": "NODE-037",
+    "target": "NODE-050",
+    "type": "risk_propagation",
+    "weight": 0.37,
+    "description": "Road damage near underground electrical infrastructure"
+  },
+  {
+    "id": "EDGE-036",
+    "source": "NODE-066",
+    "target": "NODE-116",
+    "type": "service_dependency",
+    "weight": 0.6,
+    "description": "Water main break increases sewer pressure"
+  },
+  {
+    "id": "EDGE-037",
+    "source": "NODE-067",
+    "target": "NODE-116",
+    "type": "service_dependency",
+    "weight": 0.48,
+    "description": "Water main break increases sewer pressure"
+  },
+  {
+    "id": "EDGE-038",
+    "source": "NODE-068",
+    "target": "NODE-118",
+    "type": "service_dependency",
+    "weight": 0.66,
+    "description": "Water main break increases sewer pressure"
+  },
+  {
+    "id": "EDGE-039",
+    "source": "NODE-069",
+    "target": "NODE-116",
+    "type": "service_dependency",
+    "weight": 0.43,
+    "description": "Water main break increases sewer pressure"
+  },
+  {
+    "id": "EDGE-040",
+    "source": "NODE-070",
+    "target": "NODE-116",
+    "type": "service_dependency",
+    "weight": 0.42,
+    "description": "Water main break increases sewer pressure"
+  },
+  {
+    "id": "EDGE-041",
+    "source": "NODE-071",
+    "target": "NODE-118",
+    "type": "service_dependency",
+    "weight": 0.47,
+    "description": "Water main break increases sewer pressure"
+  },
+  {
+    "id": "EDGE-042",
+    "source": "NODE-072",
+    "target": "NODE-117",
+    "type": "service_dependency",
+    "weight": 0.51,
+    "description": "Water main break increases sewer pressure"
+  },
+  {
+    "id": "EDGE-043",
+    "source": "NODE-073",
+    "target": "NODE-120",
+    "type": "service_dependency",
+    "weight": 0.57,
+    "description": "Water main break increases sewer pressure"
+  },
+  {
+    "id": "EDGE-044",
+    "source": "NODE-074",
+    "target": "NODE-117",
+    "type": "service_dependency",
+    "weight": 0.37,
+    "description": "Water main break increases sewer pressure"
+  },
+  {
+    "id": "EDGE-045",
+    "source": "NODE-075",
+    "target": "NODE-116",
+    "type": "service_dependency",
+    "weight": 0.54,
+    "description": "Water main break increases sewer pressure"
+  },
+  {
+    "id": "EDGE-046",
+    "source": "NODE-116",
+    "target": "NODE-013",
+    "type": "physical_flow",
+    "weight": 0.75,
+    "description": "Sewer overflow backs up into storm drain"
+  },
+  {
+    "id": "EDGE-047",
+    "source": "NODE-117",
+    "target": "NODE-008",
+    "type": "physical_flow",
+    "weight": 0.7,
+    "description": "Sewer overflow backs up into storm drain"
+  },
+  {
+    "id": "EDGE-048",
+    "source": "NODE-118",
+    "target": "NODE-019",
+    "type": "physical_flow",
+    "weight": 0.56,
+    "description": "Sewer overflow backs up into storm drain"
+  },
+  {
+    "id": "EDGE-049",
+    "source": "NODE-119",
+    "target": "NODE-015",
+    "type": "physical_flow",
+    "weight": 0.76,
+    "description": "Sewer overflow backs up into storm drain"
+  },
+  {
+    "id": "EDGE-050",
+    "source": "NODE-120",
+    "target": "NODE-015",
+    "type": "physical_flow",
+    "weight": 0.6,
+    "description": "Sewer overflow backs up into storm drain"
+  },
+  {
+    "id": "EDGE-051",
+    "source": "NODE-048",
+    "target": "NODE-081",
+    "type": "service_dependency",
+    "weight": 0.92,
+    "description": "Street lights powered by this transformer"
+  },
+  {
+    "id": "EDGE-052",
+    "source": "NODE-049",
+    "target": "NODE-088",
+    "type": "service_dependency",
+    "weight": 0.93,
+    "description": "Street lights powered by this transformer"
+  },
+  {
+    "id": "EDGE-053",
+    "source": "NODE-050",
+    "target": "NODE-091",
+    "type": "service_dependency",
+    "weight": 0.84,
+    "description": "Street lights powered by this transformer"
+  },
+  {
+    "id": "EDGE-054",
+    "source": "NODE-051",
+    "target": "NODE-082",
+    "type": "service_dependency",
+    "weight": 0.81,
+    "description": "Street lights powered by this transformer"
+  },
+  {
+    "id": "EDGE-055",
+    "source": "NODE-052",
+    "target": "NODE-086",
+    "type": "service_dependency",
+    "weight": 0.95,
+    "description": "Street lights powered by this transformer"
+  },
+  {
+    "id": "EDGE-056",
+    "source": "NODE-053",
+    "target": "NODE-085",
+    "type": "service_dependency",
+    "weight": 0.86,
+    "description": "Street lights powered by this transformer"
+  },
+  {
+    "id": "EDGE-057",
+    "source": "NODE-054",
+    "target": "NODE-087",
+    "type": "service_dependency",
+    "weight": 0.87,
+    "description": "Street lights powered by this transformer"
+  },
+  {
+    "id": "EDGE-058",
+    "source": "NODE-055",
+    "target": "NODE-088",
+    "type": "service_dependency",
+    "weight": 0.91,
+    "description": "Street lights powered by this transformer"
+  },
+  {
+    "id": "EDGE-059",
+    "source": "NODE-056",
+    "target": "NODE-084",
+    "type": "service_dependency",
+    "weight": 0.95,
+    "description": "Street lights powered by this transformer"
+  },
+  {
+    "id": "EDGE-060",
+    "source": "NODE-057",
+    "target": "NODE-088",
+    "type": "service_dependency",
+    "weight": 0.73,
+    "description": "Street lights powered by this transformer"
+  },
+  {
+    "id": "EDGE-061",
+    "source": "NODE-058",
+    "target": "NODE-087",
+    "type": "service_dependency",
+    "weight": 0.84,
+    "description": "Street lights powered by this transformer"
+  },
+  {
+    "id": "EDGE-062",
+    "source": "NODE-059",
+    "target": "NODE-090",
+    "type": "service_dependency",
+    "weight": 0.77,
+    "description": "Street lights powered by this transformer"
+  },
+  {
+    "id": "EDGE-063",
+    "source": "NODE-045",
+    "target": "NODE-032",
+    "type": "physical_flow",
+    "weight": 0.49,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-064",
+    "source": "NODE-023",
+    "target": "NODE-044",
+    "type": "physical_flow",
+    "weight": 0.29,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-065",
+    "source": "NODE-035",
+    "target": "NODE-031",
+    "type": "physical_flow",
+    "weight": 0.46,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-066",
+    "source": "NODE-023",
+    "target": "NODE-041",
+    "type": "physical_flow",
+    "weight": 0.44,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-067",
+    "source": "NODE-044",
+    "target": "NODE-047",
+    "type": "physical_flow",
+    "weight": 0.34,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-068",
+    "source": "NODE-046",
+    "target": "NODE-024",
+    "type": "physical_flow",
+    "weight": 0.22,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-069",
+    "source": "NODE-042",
+    "target": "NODE-046",
+    "type": "physical_flow",
+    "weight": 0.43,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-070",
+    "source": "NODE-038",
+    "target": "NODE-032",
+    "type": "physical_flow",
+    "weight": 0.27,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-071",
+    "source": "NODE-047",
+    "target": "NODE-030",
+    "type": "physical_flow",
+    "weight": 0.4,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-072",
+    "source": "NODE-042",
+    "target": "NODE-034",
+    "type": "physical_flow",
+    "weight": 0.4,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-073",
+    "source": "NODE-030",
+    "target": "NODE-043",
+    "type": "physical_flow",
+    "weight": 0.32,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-074",
+    "source": "NODE-029",
+    "target": "NODE-042",
+    "type": "physical_flow",
+    "weight": 0.45,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-075",
+    "source": "NODE-031",
+    "target": "NODE-044",
+    "type": "physical_flow",
+    "weight": 0.37,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-076",
+    "source": "NODE-047",
+    "target": "NODE-046",
+    "type": "physical_flow",
+    "weight": 0.23,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-077",
+    "source": "NODE-047",
+    "target": "NODE-044",
+    "type": "physical_flow",
+    "weight": 0.32,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-078",
+    "source": "NODE-044",
+    "target": "NODE-027",
+    "type": "physical_flow",
+    "weight": 0.28,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-079",
+    "source": "NODE-043",
+    "target": "NODE-026",
+    "type": "physical_flow",
+    "weight": 0.24,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-080",
+    "source": "NODE-024",
+    "target": "NODE-032",
+    "type": "physical_flow",
+    "weight": 0.31,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-081",
+    "source": "NODE-037",
+    "target": "NODE-024",
+    "type": "physical_flow",
+    "weight": 0.42,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-082",
+    "source": "NODE-041",
+    "target": "NODE-034",
+    "type": "physical_flow",
+    "weight": 0.28,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-083",
+    "source": "NODE-046",
+    "target": "NODE-027",
+    "type": "physical_flow",
+    "weight": 0.31,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-084",
+    "source": "NODE-025",
+    "target": "NODE-032",
+    "type": "physical_flow",
+    "weight": 0.39,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-085",
+    "source": "NODE-033",
+    "target": "NODE-046",
+    "type": "physical_flow",
+    "weight": 0.31,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-086",
+    "source": "NODE-036",
+    "target": "NODE-028",
+    "type": "physical_flow",
+    "weight": 0.4,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-087",
+    "source": "NODE-029",
+    "target": "NODE-027",
+    "type": "physical_flow",
+    "weight": 0.34,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-088",
+    "source": "NODE-040",
+    "target": "NODE-034",
+    "type": "physical_flow",
+    "weight": 0.39,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-089",
+    "source": "NODE-031",
+    "target": "NODE-028",
+    "type": "physical_flow",
+    "weight": 0.48,
+    "description": "Adjacent road segments share drainage"
+  },
+  {
+    "id": "EDGE-090",
+    "source": "NODE-031",
+    "target": "NODE-038",
+    "type": "physical_flow",
+    "weight": 0.3,
+    "description": "Adjacent road segments share drainage"
+  }
+]

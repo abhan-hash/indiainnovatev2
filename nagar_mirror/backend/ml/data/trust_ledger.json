@@ -1,0 +1,1421 @@
+[
+  {
+    "id": "LEDGER-000001",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00082",
+    "entity_id": "CMP-00082",
+    "metadata": {
+      "type": "safety",
+      "severity": 5
+    },
+    "timestamp": "2025-12-29T00:33:00",
+    "prev_hash": "0000000000000000",
+    "entry_hash": "74a8336c9b895e1126a5c4913d88d8e20510090d225b4a7077a2d3106f2f70b6"
+  },
+  {
+    "id": "LEDGER-000002",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-005",
+    "entity_id": "CMP-00082",
+    "metadata": {
+      "officer": "OFF-005"
+    },
+    "timestamp": "2025-12-29T03:33:00",
+    "prev_hash": "74a8336c9b895e1126a5c4913d88d8e20510090d225b4a7077a2d3106f2f70b6",
+    "entry_hash": "ce1303c6521b4869f68e555e93d697330074f98fe24dd332db6974a7b28be023"
+  },
+  {
+    "id": "LEDGER-000003",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-005",
+    "entity_id": "CMP-00082",
+    "metadata": {
+      "resolution_days": 8
+    },
+    "timestamp": "2026-01-06T00:33:00",
+    "prev_hash": "ce1303c6521b4869f68e555e93d697330074f98fe24dd332db6974a7b28be023",
+    "entry_hash": "edd2f4b142b28820e5a603e3003fbd1d2bdfddaebf667ab827019a69bbb63ea1"
+  },
+  {
+    "id": "LEDGER-000004",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00742",
+    "entity_id": "CMP-00742",
+    "metadata": {
+      "type": "electricity",
+      "severity": 5
+    },
+    "timestamp": "2026-02-28T19:06:00",
+    "prev_hash": "edd2f4b142b28820e5a603e3003fbd1d2bdfddaebf667ab827019a69bbb63ea1",
+    "entry_hash": "1c56588d5365942596d8360f655113f4961ff6b5065b664d8feb6aaf01b2b56b"
+  },
+  {
+    "id": "LEDGER-000005",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-003",
+    "entity_id": "CMP-00742",
+    "metadata": {
+      "officer": "OFF-003"
+    },
+    "timestamp": "2026-03-01T00:06:00",
+    "prev_hash": "1c56588d5365942596d8360f655113f4961ff6b5065b664d8feb6aaf01b2b56b",
+    "entry_hash": "f58a209e10bd08a9413083be246a3c8854167827ee386044e9de586e5364b517"
+  },
+  {
+    "id": "LEDGER-000006",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-003",
+    "entity_id": "CMP-00742",
+    "metadata": {
+      "resolution_days": 7
+    },
+    "timestamp": "2026-03-07T19:06:00",
+    "prev_hash": "f58a209e10bd08a9413083be246a3c8854167827ee386044e9de586e5364b517",
+    "entry_hash": "26209c0c64e135ff48b58d601e4bb4c1215a3b1668f5cb1a013c990c5408b9fe"
+  },
+  {
+    "id": "LEDGER-000007",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00742",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-03-08T02:06:00",
+    "prev_hash": "26209c0c64e135ff48b58d601e4bb4c1215a3b1668f5cb1a013c990c5408b9fe",
+    "entry_hash": "8de61adc535e4b91fac7478618cc3b215e6a62c3a4e4dd2d62e812ee81d9b9be"
+  },
+  {
+    "id": "LEDGER-000008",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00451",
+    "entity_id": "CMP-00451",
+    "metadata": {
+      "type": "roads",
+      "severity": 5
+    },
+    "timestamp": "2026-02-01T18:16:00",
+    "prev_hash": "8de61adc535e4b91fac7478618cc3b215e6a62c3a4e4dd2d62e812ee81d9b9be",
+    "entry_hash": "3b102a377e938e11c6c6e66b74484b1b34f11c713f50b34ff0fa19a5771327c5"
+  },
+  {
+    "id": "LEDGER-000009",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-003",
+    "entity_id": "CMP-00451",
+    "metadata": {
+      "officer": "OFF-003"
+    },
+    "timestamp": "2026-02-02T01:16:00",
+    "prev_hash": "3b102a377e938e11c6c6e66b74484b1b34f11c713f50b34ff0fa19a5771327c5",
+    "entry_hash": "ffd9a8d4fe8c4b2d4bfdbb5790773ee1a79e2c774fe21cd61f2a75094af316db"
+  },
+  {
+    "id": "LEDGER-000010",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-003",
+    "entity_id": "CMP-00451",
+    "metadata": {
+      "resolution_days": 9
+    },
+    "timestamp": "2026-02-10T18:16:00",
+    "prev_hash": "ffd9a8d4fe8c4b2d4bfdbb5790773ee1a79e2c774fe21cd61f2a75094af316db",
+    "entry_hash": "799c2a6a566b6f6ca66e4725626f6c35dbae54c5f1e2d64316a3b7ba62467f86"
+  },
+  {
+    "id": "LEDGER-000011",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00344",
+    "entity_id": "CMP-00344",
+    "metadata": {
+      "type": "waste",
+      "severity": 4
+    },
+    "timestamp": "2026-01-22T18:48:00",
+    "prev_hash": "799c2a6a566b6f6ca66e4725626f6c35dbae54c5f1e2d64316a3b7ba62467f86",
+    "entry_hash": "c64232549e5f9a244d8075e09f7336ab87c702e53559e5cc1db909c2ce669a8b"
+  },
+  {
+    "id": "LEDGER-000012",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-003",
+    "entity_id": "CMP-00344",
+    "metadata": {
+      "officer": "OFF-003"
+    },
+    "timestamp": "2026-01-22T21:48:00",
+    "prev_hash": "c64232549e5f9a244d8075e09f7336ab87c702e53559e5cc1db909c2ce669a8b",
+    "entry_hash": "aa6ac1b8841098590051827675f399caac87ae6b8fc99d77eac946c7700fc6f9"
+  },
+  {
+    "id": "LEDGER-000013",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-003",
+    "entity_id": "CMP-00344",
+    "metadata": {
+      "resolution_days": 7
+    },
+    "timestamp": "2026-01-29T18:48:00",
+    "prev_hash": "aa6ac1b8841098590051827675f399caac87ae6b8fc99d77eac946c7700fc6f9",
+    "entry_hash": "32740bf654bc4b6ceb4aa6e4cd8cbd27c238dd77a829653528b4c37271992aca"
+  },
+  {
+    "id": "LEDGER-000014",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00344",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-01-30T23:48:00",
+    "prev_hash": "32740bf654bc4b6ceb4aa6e4cd8cbd27c238dd77a829653528b4c37271992aca",
+    "entry_hash": "56fca61ca0e3c1268bf1aeec4b6b09b2636d13ae7700d3e5917af7ccb1d2f28c"
+  },
+  {
+    "id": "LEDGER-000015",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00326",
+    "entity_id": "CMP-00326",
+    "metadata": {
+      "type": "roads",
+      "severity": 3
+    },
+    "timestamp": "2026-01-21T03:03:00",
+    "prev_hash": "56fca61ca0e3c1268bf1aeec4b6b09b2636d13ae7700d3e5917af7ccb1d2f28c",
+    "entry_hash": "d0719d7cb5f84889f08bacfcf12097d40ca85cdddf55e50a89af07f57f884bd2"
+  },
+  {
+    "id": "LEDGER-000016",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-005",
+    "entity_id": "CMP-00326",
+    "metadata": {
+      "officer": "OFF-005"
+    },
+    "timestamp": "2026-01-21T08:03:00",
+    "prev_hash": "d0719d7cb5f84889f08bacfcf12097d40ca85cdddf55e50a89af07f57f884bd2",
+    "entry_hash": "d8bf99f86c6f9dcb3785ec814632f3a6ed2c4325f0d0dbfabe3b7f85e787f583"
+  },
+  {
+    "id": "LEDGER-000017",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-005",
+    "entity_id": "CMP-00326",
+    "metadata": {
+      "resolution_days": 13
+    },
+    "timestamp": "2026-02-03T03:03:00",
+    "prev_hash": "d8bf99f86c6f9dcb3785ec814632f3a6ed2c4325f0d0dbfabe3b7f85e787f583",
+    "entry_hash": "101a275af05d0b6e72e0a19e46efd4e0094dbbbf82bb0a2ff3595e7c64089644"
+  },
+  {
+    "id": "LEDGER-000018",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00326",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-02-03T16:03:00",
+    "prev_hash": "101a275af05d0b6e72e0a19e46efd4e0094dbbbf82bb0a2ff3595e7c64089644",
+    "entry_hash": "6d4ca0d9e87d1f4bc917195aa4b7e40b022dda0738c446780dbce279c12ddb58"
+  },
+  {
+    "id": "LEDGER-000019",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00494",
+    "entity_id": "CMP-00494",
+    "metadata": {
+      "type": "drainage",
+      "severity": 3
+    },
+    "timestamp": "2026-02-06T06:00:00",
+    "prev_hash": "6d4ca0d9e87d1f4bc917195aa4b7e40b022dda0738c446780dbce279c12ddb58",
+    "entry_hash": "34917591484190cf74927d52896aab71e67d0069f63e8390e265f86ddb2a5cf7"
+  },
+  {
+    "id": "LEDGER-000020",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-001",
+    "entity_id": "CMP-00494",
+    "metadata": {
+      "officer": "OFF-001"
+    },
+    "timestamp": "2026-02-06T09:00:00",
+    "prev_hash": "34917591484190cf74927d52896aab71e67d0069f63e8390e265f86ddb2a5cf7",
+    "entry_hash": "2f97f02969032693f67b99a241ddc344e965c2aae8817befd882242d559c7b4a"
+  },
+  {
+    "id": "LEDGER-000021",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-001",
+    "entity_id": "CMP-00494",
+    "metadata": {
+      "resolution_days": 7
+    },
+    "timestamp": "2026-02-13T06:00:00",
+    "prev_hash": "2f97f02969032693f67b99a241ddc344e965c2aae8817befd882242d559c7b4a",
+    "entry_hash": "44f605605c9d8640a54eb9c4cf29198796865a23d802516c3e1c25d3b467a6a8"
+  },
+  {
+    "id": "LEDGER-000022",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00494",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-02-13T17:00:00",
+    "prev_hash": "44f605605c9d8640a54eb9c4cf29198796865a23d802516c3e1c25d3b467a6a8",
+    "entry_hash": "53f9212317806a232acab897484b8df5fbb9a4753fa5bf5816ce7a346ec7211e"
+  },
+  {
+    "id": "LEDGER-000023",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00311",
+    "entity_id": "CMP-00311",
+    "metadata": {
+      "type": "drainage",
+      "severity": 3
+    },
+    "timestamp": "2026-01-20T01:37:00",
+    "prev_hash": "53f9212317806a232acab897484b8df5fbb9a4753fa5bf5816ce7a346ec7211e",
+    "entry_hash": "c79fd988ceb3e36ca6ab43652ff3ca74f65f5dd67286afdd0d861e4b96261296"
+  },
+  {
+    "id": "LEDGER-000024",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-005",
+    "entity_id": "CMP-00311",
+    "metadata": {
+      "officer": "OFF-005"
+    },
+    "timestamp": "2026-01-20T09:37:00",
+    "prev_hash": "c79fd988ceb3e36ca6ab43652ff3ca74f65f5dd67286afdd0d861e4b96261296",
+    "entry_hash": "2f912c14a9a5698652199723791add68baaeed34f939f58ead7a54cbb90c7df4"
+  },
+  {
+    "id": "LEDGER-000025",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-005",
+    "entity_id": "CMP-00311",
+    "metadata": {
+      "resolution_days": 6
+    },
+    "timestamp": "2026-01-26T01:37:00",
+    "prev_hash": "2f912c14a9a5698652199723791add68baaeed34f939f58ead7a54cbb90c7df4",
+    "entry_hash": "e0ed86476e970513ebbda5d8653c5350638bf8f4e87e045113b7666d14d7b19a"
+  },
+  {
+    "id": "LEDGER-000026",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00112",
+    "entity_id": "CMP-00112",
+    "metadata": {
+      "type": "electricity",
+      "severity": 5
+    },
+    "timestamp": "2025-12-31T21:32:00",
+    "prev_hash": "e0ed86476e970513ebbda5d8653c5350638bf8f4e87e045113b7666d14d7b19a",
+    "entry_hash": "2bf7ed72042f3c2b72ec3351d51f2e1c50215506feb84f833939fe50895b5ce7"
+  },
+  {
+    "id": "LEDGER-000027",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-008",
+    "entity_id": "CMP-00112",
+    "metadata": {
+      "officer": "OFF-008"
+    },
+    "timestamp": "2026-01-01T03:32:00",
+    "prev_hash": "2bf7ed72042f3c2b72ec3351d51f2e1c50215506feb84f833939fe50895b5ce7",
+    "entry_hash": "0abb379b20e91d657165fb7b1ee4db26c2d28444228654517cca762f583f6869"
+  },
+  {
+    "id": "LEDGER-000028",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-008",
+    "entity_id": "CMP-00112",
+    "metadata": {
+      "resolution_days": 3
+    },
+    "timestamp": "2026-01-03T21:32:00",
+    "prev_hash": "0abb379b20e91d657165fb7b1ee4db26c2d28444228654517cca762f583f6869",
+    "entry_hash": "5d8d2eb64d68edc210cd8c6af3f43cda1dfaa6dad5973045cd6d1f95940c06fc"
+  },
+  {
+    "id": "LEDGER-000029",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00112",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-01-05T07:32:00",
+    "prev_hash": "5d8d2eb64d68edc210cd8c6af3f43cda1dfaa6dad5973045cd6d1f95940c06fc",
+    "entry_hash": "f5eb30ea7a0019d0b777ff03c42c7b87161304ae6f96a8dfc55e10bbbf5a0172"
+  },
+  {
+    "id": "LEDGER-000030",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00442",
+    "entity_id": "CMP-00442",
+    "metadata": {
+      "type": "electricity",
+      "severity": 5
+    },
+    "timestamp": "2026-02-02T02:10:00",
+    "prev_hash": "f5eb30ea7a0019d0b777ff03c42c7b87161304ae6f96a8dfc55e10bbbf5a0172",
+    "entry_hash": "9185f4adfb2d6a6c87e480b1e423f30a6f8f7cfc547592eea2f823bd9b50ad77"
+  },
+  {
+    "id": "LEDGER-000031",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-009",
+    "entity_id": "CMP-00442",
+    "metadata": {
+      "officer": "OFF-009"
+    },
+    "timestamp": "2026-02-02T04:10:00",
+    "prev_hash": "9185f4adfb2d6a6c87e480b1e423f30a6f8f7cfc547592eea2f823bd9b50ad77",
+    "entry_hash": "544ed8255109a5750efdb803d815e3be0cceed1b90c561a6954986b7420a1d41"
+  },
+  {
+    "id": "LEDGER-000032",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-009",
+    "entity_id": "CMP-00442",
+    "metadata": {
+      "resolution_days": 3
+    },
+    "timestamp": "2026-02-05T02:10:00",
+    "prev_hash": "544ed8255109a5750efdb803d815e3be0cceed1b90c561a6954986b7420a1d41",
+    "entry_hash": "9736bda234127f6c7f4ed1e6ff85c2c6ca83750c488b1fb3ddab70ec11387dc9"
+  },
+  {
+    "id": "LEDGER-000033",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00442",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-02-06T08:10:00",
+    "prev_hash": "9736bda234127f6c7f4ed1e6ff85c2c6ca83750c488b1fb3ddab70ec11387dc9",
+    "entry_hash": "91be8d6ed3b58feb9680a31476902c2ec6ed0e3cb0b2b26f02d09e5ba009e9ee"
+  },
+  {
+    "id": "LEDGER-000034",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00466",
+    "entity_id": "CMP-00466",
+    "metadata": {
+      "type": "waste",
+      "severity": 4
+    },
+    "timestamp": "2026-02-03T08:15:00",
+    "prev_hash": "91be8d6ed3b58feb9680a31476902c2ec6ed0e3cb0b2b26f02d09e5ba009e9ee",
+    "entry_hash": "182fbd2c9b72bb18b35516ef3cf6bacd4ea036eaed70cf86ec64e04315f9943e"
+  },
+  {
+    "id": "LEDGER-000035",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-009",
+    "entity_id": "CMP-00466",
+    "metadata": {
+      "officer": "OFF-009"
+    },
+    "timestamp": "2026-02-03T09:15:00",
+    "prev_hash": "182fbd2c9b72bb18b35516ef3cf6bacd4ea036eaed70cf86ec64e04315f9943e",
+    "entry_hash": "322dea8ce7e60078053099004ae494a772961c92adcf16db9f301689339194cf"
+  },
+  {
+    "id": "LEDGER-000036",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-009",
+    "entity_id": "CMP-00466",
+    "metadata": {
+      "resolution_days": 6
+    },
+    "timestamp": "2026-02-09T08:15:00",
+    "prev_hash": "322dea8ce7e60078053099004ae494a772961c92adcf16db9f301689339194cf",
+    "entry_hash": "fc898e5ccdfbe1d11c0341aa5d849bb8697694535af392b909e5cf932004454f"
+  },
+  {
+    "id": "LEDGER-000037",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00466",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-02-11T07:15:00",
+    "prev_hash": "fc898e5ccdfbe1d11c0341aa5d849bb8697694535af392b909e5cf932004454f",
+    "entry_hash": "320bb996f91e60423b1d08055f925f24188f5f867471a889502a2b67a7c451ee"
+  },
+  {
+    "id": "LEDGER-000038",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00439",
+    "entity_id": "CMP-00439",
+    "metadata": {
+      "type": "waste",
+      "severity": 3
+    },
+    "timestamp": "2026-02-01T22:02:00",
+    "prev_hash": "320bb996f91e60423b1d08055f925f24188f5f867471a889502a2b67a7c451ee",
+    "entry_hash": "44f601fd6e108c64e991408cfe8288d6b6460d1bdd1bb5c1e25de83f478fa05d"
+  },
+  {
+    "id": "LEDGER-000039",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-003",
+    "entity_id": "CMP-00439",
+    "metadata": {
+      "officer": "OFF-003"
+    },
+    "timestamp": "2026-02-02T03:02:00",
+    "prev_hash": "44f601fd6e108c64e991408cfe8288d6b6460d1bdd1bb5c1e25de83f478fa05d",
+    "entry_hash": "ef44d62570457e02e3e00c4220181adc1f2c63f22e60ea15f9d2a93afaf125e1"
+  },
+  {
+    "id": "LEDGER-000040",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-003",
+    "entity_id": "CMP-00439",
+    "metadata": {
+      "resolution_days": 5
+    },
+    "timestamp": "2026-02-06T22:02:00",
+    "prev_hash": "ef44d62570457e02e3e00c4220181adc1f2c63f22e60ea15f9d2a93afaf125e1",
+    "entry_hash": "dea59fd320d98e7112356920659a323081519a03bcd53aae6144f88c45d21d1b"
+  },
+  {
+    "id": "LEDGER-000041",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00439",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-02-08T22:02:00",
+    "prev_hash": "dea59fd320d98e7112356920659a323081519a03bcd53aae6144f88c45d21d1b",
+    "entry_hash": "9a59ca9365e591778c3abb11ca2e385efe2c573a99a01d5e00b0a0d1d58277a4"
+  },
+  {
+    "id": "LEDGER-000042",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00292",
+    "entity_id": "CMP-00292",
+    "metadata": {
+      "type": "health",
+      "severity": 4
+    },
+    "timestamp": "2026-01-17T21:40:00",
+    "prev_hash": "9a59ca9365e591778c3abb11ca2e385efe2c573a99a01d5e00b0a0d1d58277a4",
+    "entry_hash": "0b69964fc392100fe47ee003fc14d3b31592feceeeaa045e87dd592efa729f9d"
+  },
+  {
+    "id": "LEDGER-000043",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-010",
+    "entity_id": "CMP-00292",
+    "metadata": {
+      "officer": "OFF-010"
+    },
+    "timestamp": "2026-01-18T03:40:00",
+    "prev_hash": "0b69964fc392100fe47ee003fc14d3b31592feceeeaa045e87dd592efa729f9d",
+    "entry_hash": "e7f228702227c29763f87ea169ab12d32964e63ddfe5c0e9dc157a811c505b07"
+  },
+  {
+    "id": "LEDGER-000044",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-010",
+    "entity_id": "CMP-00292",
+    "metadata": {
+      "resolution_days": 8
+    },
+    "timestamp": "2026-01-25T21:40:00",
+    "prev_hash": "e7f228702227c29763f87ea169ab12d32964e63ddfe5c0e9dc157a811c505b07",
+    "entry_hash": "1c91f543d8d69fb0ff3e73138a8371ac9b3a9b2a653d32b65fa65e7bf42d9a20"
+  },
+  {
+    "id": "LEDGER-000045",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00689",
+    "entity_id": "CMP-00689",
+    "metadata": {
+      "type": "health",
+      "severity": 4
+    },
+    "timestamp": "2026-02-23T19:09:00",
+    "prev_hash": "1c91f543d8d69fb0ff3e73138a8371ac9b3a9b2a653d32b65fa65e7bf42d9a20",
+    "entry_hash": "ec0982cc24cd16d5a5e8379c74bce885bc6794acf81162530202f52fb779aacd"
+  },
+  {
+    "id": "LEDGER-000046",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-006",
+    "entity_id": "CMP-00689",
+    "metadata": {
+      "officer": "OFF-006"
+    },
+    "timestamp": "2026-02-24T00:09:00",
+    "prev_hash": "ec0982cc24cd16d5a5e8379c74bce885bc6794acf81162530202f52fb779aacd",
+    "entry_hash": "45afe8deedf6c0672fa0afb6cd0ac36bbadce934150b705f9ba61133c5f8ec11"
+  },
+  {
+    "id": "LEDGER-000047",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-006",
+    "entity_id": "CMP-00689",
+    "metadata": {
+      "resolution_days": 3
+    },
+    "timestamp": "2026-02-26T19:09:00",
+    "prev_hash": "45afe8deedf6c0672fa0afb6cd0ac36bbadce934150b705f9ba61133c5f8ec11",
+    "entry_hash": "f8aa0df804441049be0af202fce7ee14f2baff63020a14cefe7335bf32804a0d"
+  },
+  {
+    "id": "LEDGER-000048",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00689",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-02-27T05:09:00",
+    "prev_hash": "f8aa0df804441049be0af202fce7ee14f2baff63020a14cefe7335bf32804a0d",
+    "entry_hash": "2e1d67b6b3d5eddd0893bef2f79bc24594960b8669e1e0a8d21ceb34c4451190"
+  },
+  {
+    "id": "LEDGER-000049",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00098",
+    "entity_id": "CMP-00098",
+    "metadata": {
+      "type": "health",
+      "severity": 4
+    },
+    "timestamp": "2025-12-30T23:28:00",
+    "prev_hash": "2e1d67b6b3d5eddd0893bef2f79bc24594960b8669e1e0a8d21ceb34c4451190",
+    "entry_hash": "6cc3d423ac76f9afe3f364cc00debe91d2996cbb9dee40b229131ec72cfcfadb"
+  },
+  {
+    "id": "LEDGER-000050",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-001",
+    "entity_id": "CMP-00098",
+    "metadata": {
+      "officer": "OFF-001"
+    },
+    "timestamp": "2025-12-31T01:28:00",
+    "prev_hash": "6cc3d423ac76f9afe3f364cc00debe91d2996cbb9dee40b229131ec72cfcfadb",
+    "entry_hash": "a247e36889a1c55110a181cf61812d5ddfb919425892a088ef38d01cfc659d00"
+  },
+  {
+    "id": "LEDGER-000051",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-001",
+    "entity_id": "CMP-00098",
+    "metadata": {
+      "resolution_days": 3
+    },
+    "timestamp": "2026-01-02T23:28:00",
+    "prev_hash": "a247e36889a1c55110a181cf61812d5ddfb919425892a088ef38d01cfc659d00",
+    "entry_hash": "058c6b3c093432282d5dcf3f77d4ee6b3afbca37a28d9cd470ef72d557278278"
+  },
+  {
+    "id": "LEDGER-000052",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00098",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-01-04T12:28:00",
+    "prev_hash": "058c6b3c093432282d5dcf3f77d4ee6b3afbca37a28d9cd470ef72d557278278",
+    "entry_hash": "0beb1326a395832d2f2c4f3fad0429c44cc94dd7c67b62a7ec08229b864cec1b"
+  },
+  {
+    "id": "LEDGER-000053",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00648",
+    "entity_id": "CMP-00648",
+    "metadata": {
+      "type": "drainage",
+      "severity": 5
+    },
+    "timestamp": "2026-02-20T20:26:00",
+    "prev_hash": "0beb1326a395832d2f2c4f3fad0429c44cc94dd7c67b62a7ec08229b864cec1b",
+    "entry_hash": "89977bce3f6956c0baec70bbabcd8fc8f715c07b62fb259387080f2e0cbe8998"
+  },
+  {
+    "id": "LEDGER-000054",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-001",
+    "entity_id": "CMP-00648",
+    "metadata": {
+      "officer": "OFF-001"
+    },
+    "timestamp": "2026-02-21T02:26:00",
+    "prev_hash": "89977bce3f6956c0baec70bbabcd8fc8f715c07b62fb259387080f2e0cbe8998",
+    "entry_hash": "d71e5670044c867f756873e076b7555d82a2978aed1806b68e1d96713a7a4697"
+  },
+  {
+    "id": "LEDGER-000055",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-001",
+    "entity_id": "CMP-00648",
+    "metadata": {
+      "resolution_days": 3
+    },
+    "timestamp": "2026-02-23T20:26:00",
+    "prev_hash": "d71e5670044c867f756873e076b7555d82a2978aed1806b68e1d96713a7a4697",
+    "entry_hash": "cd3783ed628ba0d377e2feab39ee603ffe27037717543c2c44bdb76695d2ed87"
+  },
+  {
+    "id": "LEDGER-000056",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00648",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-02-25T17:26:00",
+    "prev_hash": "cd3783ed628ba0d377e2feab39ee603ffe27037717543c2c44bdb76695d2ed87",
+    "entry_hash": "aa8b6dfd0301998f2b93da5235612a1b668c400215f4b390845de2e2f3738d56"
+  },
+  {
+    "id": "LEDGER-000057",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00718",
+    "entity_id": "CMP-00718",
+    "metadata": {
+      "type": "health",
+      "severity": 5
+    },
+    "timestamp": "2026-02-25T17:21:00",
+    "prev_hash": "aa8b6dfd0301998f2b93da5235612a1b668c400215f4b390845de2e2f3738d56",
+    "entry_hash": "e7816fc338cacf659cfc3f0cc37ee70a436fda270ebb7851a1bf1769ca6d9c40"
+  },
+  {
+    "id": "LEDGER-000058",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-007",
+    "entity_id": "CMP-00718",
+    "metadata": {
+      "officer": "OFF-007"
+    },
+    "timestamp": "2026-02-25T22:21:00",
+    "prev_hash": "e7816fc338cacf659cfc3f0cc37ee70a436fda270ebb7851a1bf1769ca6d9c40",
+    "entry_hash": "37b28342cd3b20a606bf871b2cf81dbd3c16f3ccdeff577aeb32a89a75e1780d"
+  },
+  {
+    "id": "LEDGER-000059",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-007",
+    "entity_id": "CMP-00718",
+    "metadata": {
+      "resolution_days": 11
+    },
+    "timestamp": "2026-03-08T17:21:00",
+    "prev_hash": "37b28342cd3b20a606bf871b2cf81dbd3c16f3ccdeff577aeb32a89a75e1780d",
+    "entry_hash": "92fdb9f80e5f90bffb718c1a5b6d481d95ed2dac43dc33f5a3d6e2f35c9f65f5"
+  },
+  {
+    "id": "LEDGER-000060",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00718",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-03-09T18:21:00",
+    "prev_hash": "92fdb9f80e5f90bffb718c1a5b6d481d95ed2dac43dc33f5a3d6e2f35c9f65f5",
+    "entry_hash": "d869002473fc28c2b729c1e602302a99a5ad290e4f3e23061c6172e2e87b1c0d"
+  },
+  {
+    "id": "LEDGER-000061",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00137",
+    "entity_id": "CMP-00137",
+    "metadata": {
+      "type": "drainage",
+      "severity": 5
+    },
+    "timestamp": "2026-01-03T07:24:00",
+    "prev_hash": "d869002473fc28c2b729c1e602302a99a5ad290e4f3e23061c6172e2e87b1c0d",
+    "entry_hash": "7de0ef165ad3643fe8fce49b8a74cb5ce6ada6f3c8811286289cdf6908d2df50"
+  },
+  {
+    "id": "LEDGER-000062",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-007",
+    "entity_id": "CMP-00137",
+    "metadata": {
+      "officer": "OFF-007"
+    },
+    "timestamp": "2026-01-03T15:24:00",
+    "prev_hash": "7de0ef165ad3643fe8fce49b8a74cb5ce6ada6f3c8811286289cdf6908d2df50",
+    "entry_hash": "8d8151a98e61aa4663beb21bee28a55abf1f5d3ee2a55db55b3c3e4d67677212"
+  },
+  {
+    "id": "LEDGER-000063",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-007",
+    "entity_id": "CMP-00137",
+    "metadata": {
+      "resolution_days": 10
+    },
+    "timestamp": "2026-01-13T07:24:00",
+    "prev_hash": "8d8151a98e61aa4663beb21bee28a55abf1f5d3ee2a55db55b3c3e4d67677212",
+    "entry_hash": "4c8ad0207c456267713304e909940ed41d60ff654133497e04b40dbf0ccd8e15"
+  },
+  {
+    "id": "LEDGER-000064",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00905",
+    "entity_id": "CMP-00905",
+    "metadata": {
+      "type": "electricity",
+      "severity": 5
+    },
+    "timestamp": "2026-03-16T22:49:00",
+    "prev_hash": "4c8ad0207c456267713304e909940ed41d60ff654133497e04b40dbf0ccd8e15",
+    "entry_hash": "61201a1066905222c0627b7f5435eaec6e9d2852a9bda747d6ccb9a5c1c68722"
+  },
+  {
+    "id": "LEDGER-000065",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-006",
+    "entity_id": "CMP-00905",
+    "metadata": {
+      "officer": "OFF-006"
+    },
+    "timestamp": "2026-03-16T23:49:00",
+    "prev_hash": "61201a1066905222c0627b7f5435eaec6e9d2852a9bda747d6ccb9a5c1c68722",
+    "entry_hash": "22f12a2cfd52bc837a4303dd9dc9365da7b015be2ae62620dfa601894016f83b"
+  },
+  {
+    "id": "LEDGER-000066",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-006",
+    "entity_id": "CMP-00905",
+    "metadata": {
+      "resolution_days": 5
+    },
+    "timestamp": "2026-03-21T22:49:00",
+    "prev_hash": "22f12a2cfd52bc837a4303dd9dc9365da7b015be2ae62620dfa601894016f83b",
+    "entry_hash": "4b104ea7f82deed1364580aa2c3f16203371e07cf48e4f1132ab238e69e04d3a"
+  },
+  {
+    "id": "LEDGER-000067",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00905",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-03-22T20:49:00",
+    "prev_hash": "4b104ea7f82deed1364580aa2c3f16203371e07cf48e4f1132ab238e69e04d3a",
+    "entry_hash": "0cf2196e5eb7b1c0697818e32d3e2b27379635cd62cfad17bb1493012dc26a59"
+  },
+  {
+    "id": "LEDGER-000068",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00294",
+    "entity_id": "CMP-00294",
+    "metadata": {
+      "type": "electricity",
+      "severity": 4
+    },
+    "timestamp": "2026-01-19T04:53:00",
+    "prev_hash": "0cf2196e5eb7b1c0697818e32d3e2b27379635cd62cfad17bb1493012dc26a59",
+    "entry_hash": "ecfb59f401e742620a61ab0e00f5872caa671b09fc722d61228092a81f11ac54"
+  },
+  {
+    "id": "LEDGER-000069",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-009",
+    "entity_id": "CMP-00294",
+    "metadata": {
+      "officer": "OFF-009"
+    },
+    "timestamp": "2026-01-19T11:53:00",
+    "prev_hash": "ecfb59f401e742620a61ab0e00f5872caa671b09fc722d61228092a81f11ac54",
+    "entry_hash": "c7152325da401c47c7caf08309cebd7c33e97d0efca14c340b973cee9c3a94bf"
+  },
+  {
+    "id": "LEDGER-000070",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-009",
+    "entity_id": "CMP-00294",
+    "metadata": {
+      "resolution_days": 4
+    },
+    "timestamp": "2026-01-23T04:53:00",
+    "prev_hash": "c7152325da401c47c7caf08309cebd7c33e97d0efca14c340b973cee9c3a94bf",
+    "entry_hash": "0bbe69a2e735a4f1f8ac92f5c3cbedb573929f39f2045738b5fa91be83e75850"
+  },
+  {
+    "id": "LEDGER-000071",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00373",
+    "entity_id": "CMP-00373",
+    "metadata": {
+      "type": "encroachment",
+      "severity": 3
+    },
+    "timestamp": "2026-01-26T18:17:00",
+    "prev_hash": "0bbe69a2e735a4f1f8ac92f5c3cbedb573929f39f2045738b5fa91be83e75850",
+    "entry_hash": "f0d2b471f3fe76790d52f058e6fe5b860f27c18d8ae2830423e6ff5964df4255"
+  },
+  {
+    "id": "LEDGER-000072",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-008",
+    "entity_id": "CMP-00373",
+    "metadata": {
+      "officer": "OFF-008"
+    },
+    "timestamp": "2026-01-26T21:17:00",
+    "prev_hash": "f0d2b471f3fe76790d52f058e6fe5b860f27c18d8ae2830423e6ff5964df4255",
+    "entry_hash": "db9be04e5a70e8b69bf57791dd2be03219bbd1278525e2712aebc0ae4c8fd7b0"
+  },
+  {
+    "id": "LEDGER-000073",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-008",
+    "entity_id": "CMP-00373",
+    "metadata": {
+      "resolution_days": 7
+    },
+    "timestamp": "2026-02-02T18:17:00",
+    "prev_hash": "db9be04e5a70e8b69bf57791dd2be03219bbd1278525e2712aebc0ae4c8fd7b0",
+    "entry_hash": "825094839b939e3c0c22a4285d6ba645d1ea2404446bfde99f96a2ad4289c0bb"
+  },
+  {
+    "id": "LEDGER-000074",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00373",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-02-02T20:17:00",
+    "prev_hash": "825094839b939e3c0c22a4285d6ba645d1ea2404446bfde99f96a2ad4289c0bb",
+    "entry_hash": "3c92fb8c464bd5a4d7d717802388576a2ce00b01d49648d4aedbcfe1ea6c7a1e"
+  },
+  {
+    "id": "LEDGER-000075",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00579",
+    "entity_id": "CMP-00579",
+    "metadata": {
+      "type": "waste",
+      "severity": 5
+    },
+    "timestamp": "2026-02-16T02:57:00",
+    "prev_hash": "3c92fb8c464bd5a4d7d717802388576a2ce00b01d49648d4aedbcfe1ea6c7a1e",
+    "entry_hash": "b274aefff507f23cb07f13046bdfa5016161640d473897a88fabad5700aa3a85"
+  },
+  {
+    "id": "LEDGER-000076",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-001",
+    "entity_id": "CMP-00579",
+    "metadata": {
+      "officer": "OFF-001"
+    },
+    "timestamp": "2026-02-16T05:57:00",
+    "prev_hash": "b274aefff507f23cb07f13046bdfa5016161640d473897a88fabad5700aa3a85",
+    "entry_hash": "e7b1d0dd412ce9a7d096a3582a621677a8156a861469d2a17e1a78bf3b0b03e5"
+  },
+  {
+    "id": "LEDGER-000077",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-001",
+    "entity_id": "CMP-00579",
+    "metadata": {
+      "resolution_days": 5
+    },
+    "timestamp": "2026-02-21T02:57:00",
+    "prev_hash": "e7b1d0dd412ce9a7d096a3582a621677a8156a861469d2a17e1a78bf3b0b03e5",
+    "entry_hash": "eb9f83ba9737d754edb258381a3890084359a12ff7ef274883533c0fe80561a0"
+  },
+  {
+    "id": "LEDGER-000078",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00579",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-02-21T12:57:00",
+    "prev_hash": "eb9f83ba9737d754edb258381a3890084359a12ff7ef274883533c0fe80561a0",
+    "entry_hash": "ed45c9b30eeebf5f3a1f3ff3441ae7b81b78ab4bebe9a6ee89c15ecf92fb5855"
+  },
+  {
+    "id": "LEDGER-000079",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00204",
+    "entity_id": "CMP-00204",
+    "metadata": {
+      "type": "drainage",
+      "severity": 4
+    },
+    "timestamp": "2026-01-08T03:24:00",
+    "prev_hash": "ed45c9b30eeebf5f3a1f3ff3441ae7b81b78ab4bebe9a6ee89c15ecf92fb5855",
+    "entry_hash": "de555feb072d114b103a5c6cb54764f882718827fa80124b4502958b62eb4c46"
+  },
+  {
+    "id": "LEDGER-000080",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-009",
+    "entity_id": "CMP-00204",
+    "metadata": {
+      "officer": "OFF-009"
+    },
+    "timestamp": "2026-01-08T09:24:00",
+    "prev_hash": "de555feb072d114b103a5c6cb54764f882718827fa80124b4502958b62eb4c46",
+    "entry_hash": "edd098d10492c43690abef43d75e504eee2b8ad6d6c1459c863fc05cb22db4bb"
+  },
+  {
+    "id": "LEDGER-000081",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-009",
+    "entity_id": "CMP-00204",
+    "metadata": {
+      "resolution_days": 1
+    },
+    "timestamp": "2026-01-09T03:24:00",
+    "prev_hash": "edd098d10492c43690abef43d75e504eee2b8ad6d6c1459c863fc05cb22db4bb",
+    "entry_hash": "004230d995bd074c55cae4d19facdddd4e038ae4f8ae1c5a5f6d6231eee783e6"
+  },
+  {
+    "id": "LEDGER-000082",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00932",
+    "entity_id": "CMP-00932",
+    "metadata": {
+      "type": "electricity",
+      "severity": 4
+    },
+    "timestamp": "2026-03-19T22:24:00",
+    "prev_hash": "004230d995bd074c55cae4d19facdddd4e038ae4f8ae1c5a5f6d6231eee783e6",
+    "entry_hash": "84f38366e338b9f0113b36d7d02722e37505ed60a4d15139b2955076c8bf5801"
+  },
+  {
+    "id": "LEDGER-000083",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-001",
+    "entity_id": "CMP-00932",
+    "metadata": {
+      "officer": "OFF-001"
+    },
+    "timestamp": "2026-03-20T06:24:00",
+    "prev_hash": "84f38366e338b9f0113b36d7d02722e37505ed60a4d15139b2955076c8bf5801",
+    "entry_hash": "8de9f5f021e80f4063f95832e17e3d52710623b7eb4ce7694ea71de1acd4b44c"
+  },
+  {
+    "id": "LEDGER-000084",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-001",
+    "entity_id": "CMP-00932",
+    "metadata": {
+      "resolution_days": 1
+    },
+    "timestamp": "2026-03-20T22:24:00",
+    "prev_hash": "8de9f5f021e80f4063f95832e17e3d52710623b7eb4ce7694ea71de1acd4b44c",
+    "entry_hash": "947615999c5ae0f8f362454f9428fb13f68bbe876ca24b43d4dad975518da37e"
+  },
+  {
+    "id": "LEDGER-000085",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00932",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-03-21T00:24:00",
+    "prev_hash": "947615999c5ae0f8f362454f9428fb13f68bbe876ca24b43d4dad975518da37e",
+    "entry_hash": "58eaf183e0e75422ccea4acdb4fb1d433879201742094c1854a0fff2fe1f3d37"
+  },
+  {
+    "id": "LEDGER-000086",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00084",
+    "entity_id": "CMP-00084",
+    "metadata": {
+      "type": "health",
+      "severity": 5
+    },
+    "timestamp": "2025-12-29T02:20:00",
+    "prev_hash": "58eaf183e0e75422ccea4acdb4fb1d433879201742094c1854a0fff2fe1f3d37",
+    "entry_hash": "ba3309a0dfc7b89f1cf4b732fb7890744c1b91212b1fd7adfc0a099750ba6bdf"
+  },
+  {
+    "id": "LEDGER-000087",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-008",
+    "entity_id": "CMP-00084",
+    "metadata": {
+      "officer": "OFF-008"
+    },
+    "timestamp": "2025-12-29T03:20:00",
+    "prev_hash": "ba3309a0dfc7b89f1cf4b732fb7890744c1b91212b1fd7adfc0a099750ba6bdf",
+    "entry_hash": "fd72a6e9d8ab8d5bc8fb6c5f273fc005e6fdfdb5ee7264d958ff80001ca0a003"
+  },
+  {
+    "id": "LEDGER-000088",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-008",
+    "entity_id": "CMP-00084",
+    "metadata": {
+      "resolution_days": 2
+    },
+    "timestamp": "2025-12-31T02:20:00",
+    "prev_hash": "fd72a6e9d8ab8d5bc8fb6c5f273fc005e6fdfdb5ee7264d958ff80001ca0a003",
+    "entry_hash": "42a71f70db8b8f45c66f40c4772f08698f817b485f0cd70041f6e2fbff80f1b1"
+  },
+  {
+    "id": "LEDGER-000089",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00084",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-01-02T02:20:00",
+    "prev_hash": "42a71f70db8b8f45c66f40c4772f08698f817b485f0cd70041f6e2fbff80f1b1",
+    "entry_hash": "6a6bd0db21732d16944b2c1012a88f2b3e4719db3c4a6a915a84ecad89268752"
+  },
+  {
+    "id": "LEDGER-000090",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00099",
+    "entity_id": "CMP-00099",
+    "metadata": {
+      "type": "roads",
+      "severity": 3
+    },
+    "timestamp": "2025-12-31T00:09:00",
+    "prev_hash": "6a6bd0db21732d16944b2c1012a88f2b3e4719db3c4a6a915a84ecad89268752",
+    "entry_hash": "2d6347de1e88882e8bb0faa3d80b39d573f50045db1f709337962b366a78f4d1"
+  },
+  {
+    "id": "LEDGER-000091",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-004",
+    "entity_id": "CMP-00099",
+    "metadata": {
+      "officer": "OFF-004"
+    },
+    "timestamp": "2025-12-31T01:09:00",
+    "prev_hash": "2d6347de1e88882e8bb0faa3d80b39d573f50045db1f709337962b366a78f4d1",
+    "entry_hash": "625caac5380abb1f462875b7efe32e29aaaafe8aa431a089e7022beafff288e9"
+  },
+  {
+    "id": "LEDGER-000092",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-004",
+    "entity_id": "CMP-00099",
+    "metadata": {
+      "resolution_days": 8
+    },
+    "timestamp": "2026-01-08T00:09:00",
+    "prev_hash": "625caac5380abb1f462875b7efe32e29aaaafe8aa431a089e7022beafff288e9",
+    "entry_hash": "08bf76a499fac0839debf793d49d3b6c1d372200330d0e7382e1eb0f030b4234"
+  },
+  {
+    "id": "LEDGER-000093",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00520",
+    "entity_id": "CMP-00520",
+    "metadata": {
+      "type": "health",
+      "severity": 4
+    },
+    "timestamp": "2026-02-09T00:10:00",
+    "prev_hash": "08bf76a499fac0839debf793d49d3b6c1d372200330d0e7382e1eb0f030b4234",
+    "entry_hash": "4f8ed3e09e567e9fbd3095d05b6cdc23dfe3cf45a25f09b22b8213c26b5c84d6"
+  },
+  {
+    "id": "LEDGER-000094",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-006",
+    "entity_id": "CMP-00520",
+    "metadata": {
+      "officer": "OFF-006"
+    },
+    "timestamp": "2026-02-09T02:10:00",
+    "prev_hash": "4f8ed3e09e567e9fbd3095d05b6cdc23dfe3cf45a25f09b22b8213c26b5c84d6",
+    "entry_hash": "1f74a1b0034f4f949391d232a5360529235c78dfc7f0fc6cf9af079a7db0a81a"
+  },
+  {
+    "id": "LEDGER-000095",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-006",
+    "entity_id": "CMP-00520",
+    "metadata": {
+      "resolution_days": 8
+    },
+    "timestamp": "2026-02-17T00:10:00",
+    "prev_hash": "1f74a1b0034f4f949391d232a5360529235c78dfc7f0fc6cf9af079a7db0a81a",
+    "entry_hash": "8ed7ea774c419f8d026f3578797f54a580c13740ab9998cbf71922c3f62fac04"
+  },
+  {
+    "id": "LEDGER-000096",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00657",
+    "entity_id": "CMP-00657",
+    "metadata": {
+      "type": "roads",
+      "severity": 3
+    },
+    "timestamp": "2026-02-21T04:17:00",
+    "prev_hash": "8ed7ea774c419f8d026f3578797f54a580c13740ab9998cbf71922c3f62fac04",
+    "entry_hash": "4e990eabd76774ddf371168fd0b248a040e9606a86b11d34c0ae609df597828d"
+  },
+  {
+    "id": "LEDGER-000097",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-005",
+    "entity_id": "CMP-00657",
+    "metadata": {
+      "officer": "OFF-005"
+    },
+    "timestamp": "2026-02-21T11:17:00",
+    "prev_hash": "4e990eabd76774ddf371168fd0b248a040e9606a86b11d34c0ae609df597828d",
+    "entry_hash": "74b12ca1973bf66796086ba03f46416e36ef4d6f2f0a800552029e8deebd26bf"
+  },
+  {
+    "id": "LEDGER-000098",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-005",
+    "entity_id": "CMP-00657",
+    "metadata": {
+      "resolution_days": 6
+    },
+    "timestamp": "2026-02-27T04:17:00",
+    "prev_hash": "74b12ca1973bf66796086ba03f46416e36ef4d6f2f0a800552029e8deebd26bf",
+    "entry_hash": "1b100464eb44d12eb5e044d79ffec50fc12ae18b97e731612df89ebe58e4ea43"
+  },
+  {
+    "id": "LEDGER-000099",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00759",
+    "entity_id": "CMP-00759",
+    "metadata": {
+      "type": "waste",
+      "severity": 5
+    },
+    "timestamp": "2026-03-03T21:25:00",
+    "prev_hash": "1b100464eb44d12eb5e044d79ffec50fc12ae18b97e731612df89ebe58e4ea43",
+    "entry_hash": "033f049857dab94dc0c6135841c812c60bd4e1b6eebdb392f32c779ce639d54f"
+  },
+  {
+    "id": "LEDGER-000100",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-010",
+    "entity_id": "CMP-00759",
+    "metadata": {
+      "officer": "OFF-010"
+    },
+    "timestamp": "2026-03-04T01:25:00",
+    "prev_hash": "033f049857dab94dc0c6135841c812c60bd4e1b6eebdb392f32c779ce639d54f",
+    "entry_hash": "84f53cea9ad44f6008a6d6de2dc4e7d40955f6db3db85a7c3222f48291cb345a"
+  },
+  {
+    "id": "LEDGER-000101",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-010",
+    "entity_id": "CMP-00759",
+    "metadata": {
+      "resolution_days": 9
+    },
+    "timestamp": "2026-03-12T21:25:00",
+    "prev_hash": "84f53cea9ad44f6008a6d6de2dc4e7d40955f6db3db85a7c3222f48291cb345a",
+    "entry_hash": "cabdca121aa08565cccc4aae3c11410dcb05234b2db058350170b5b76f4b3a08"
+  },
+  {
+    "id": "LEDGER-000102",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00805",
+    "entity_id": "CMP-00805",
+    "metadata": {
+      "type": "drainage",
+      "severity": 2
+    },
+    "timestamp": "2026-03-07T07:47:00",
+    "prev_hash": "cabdca121aa08565cccc4aae3c11410dcb05234b2db058350170b5b76f4b3a08",
+    "entry_hash": "c029f13b74433c7a1181c88aff17c65f75e4c5a6384b472fed54ba8d94cb951f"
+  },
+  {
+    "id": "LEDGER-000103",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-009",
+    "entity_id": "CMP-00805",
+    "metadata": {
+      "officer": "OFF-009"
+    },
+    "timestamp": "2026-03-07T13:47:00",
+    "prev_hash": "c029f13b74433c7a1181c88aff17c65f75e4c5a6384b472fed54ba8d94cb951f",
+    "entry_hash": "e22dc33d76ebca6f3b4a83100967f9675a61b67b0ba7efc869697dd3103377d9"
+  },
+  {
+    "id": "LEDGER-000104",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-009",
+    "entity_id": "CMP-00805",
+    "metadata": {
+      "resolution_days": 2
+    },
+    "timestamp": "2026-03-09T07:47:00",
+    "prev_hash": "e22dc33d76ebca6f3b4a83100967f9675a61b67b0ba7efc869697dd3103377d9",
+    "entry_hash": "6072e9f2b10dd9e3af3a925d94dd5dd73e3cfc93d328149c9e09f4e435fdd0b7"
+  },
+  {
+    "id": "LEDGER-000105",
+    "action_type": "citizen_confirmed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-00805",
+    "metadata": {
+      "confirmed": true
+    },
+    "timestamp": "2026-03-10T11:47:00",
+    "prev_hash": "6072e9f2b10dd9e3af3a925d94dd5dd73e3cfc93d328149c9e09f4e435fdd0b7",
+    "entry_hash": "6e0e92a1337abfadf48ed1047bce2049131e07247747b0bf78bceaeef4670d9e"
+  },
+  {
+    "id": "LEDGER-000106",
+    "action_type": "complaint_filed",
+    "actor_id": "CMP-00638",
+    "entity_id": "CMP-00638",
+    "metadata": {
+      "type": "electricity",
+      "severity": 4
+    },
+    "timestamp": "2026-02-20T00:40:00",
+    "prev_hash": "6e0e92a1337abfadf48ed1047bce2049131e07247747b0bf78bceaeef4670d9e",
+    "entry_hash": "17609f1fddc3ac260aa5c31b7e7556463df34c8ecd731bb2bc294faa2009a386"
+  },
+  {
+    "id": "LEDGER-000107",
+    "action_type": "complaint_assigned",
+    "actor_id": "OFF-003",
+    "entity_id": "CMP-00638",
+    "metadata": {
+      "officer": "OFF-003"
+    },
+    "timestamp": "2026-02-20T05:40:00",
+    "prev_hash": "17609f1fddc3ac260aa5c31b7e7556463df34c8ecd731bb2bc294faa2009a386",
+    "entry_hash": "0917a4df98f46d1c7c4356e3e3b9fbeef0e2ca630eb5ecbe9c43440290d255c5"
+  },
+  {
+    "id": "LEDGER-000108",
+    "action_type": "complaint_resolved",
+    "actor_id": "OFF-003",
+    "entity_id": "CMP-00638",
+    "metadata": {
+      "resolution_days": 7
+    },
+    "timestamp": "2026-02-27T00:40:00",
+    "prev_hash": "0917a4df98f46d1c7c4356e3e3b9fbeef0e2ca630eb5ecbe9c43440290d255c5",
+    "entry_hash": "11e44c8e98dc5d42bc6010f568b65538f7c6c25f28535c2e544513bce0dad3b6"
+  },
+  {
+    "id": "LEDGER-000109",
+    "action_type": "complaint_filed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-DEMO-01",
+    "metadata": {
+      "demo_cluster": true,
+      "severity": 5
+    },
+    "timestamp": "2026-03-13T23:00:00",
+    "prev_hash": "11e44c8e98dc5d42bc6010f568b65538f7c6c25f28535c2e544513bce0dad3b6",
+    "entry_hash": "d4bad783d48b37233d6821f973a1fb32bf23c26b0be9b282e82b3579eba8b768"
+  },
+  {
+    "id": "LEDGER-000110",
+    "action_type": "complaint_filed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-DEMO-02",
+    "metadata": {
+      "demo_cluster": true,
+      "severity": 5
+    },
+    "timestamp": "2026-03-15T01:00:00",
+    "prev_hash": "d4bad783d48b37233d6821f973a1fb32bf23c26b0be9b282e82b3579eba8b768",
+    "entry_hash": "9c88aab058027d94db85c0803c887e043ebe600bdada12bb65dbbf9be28201d0"
+  },
+  {
+    "id": "LEDGER-000111",
+    "action_type": "complaint_filed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-DEMO-03",
+    "metadata": {
+      "demo_cluster": true,
+      "severity": 5
+    },
+    "timestamp": "2026-03-15T07:00:00",
+    "prev_hash": "9c88aab058027d94db85c0803c887e043ebe600bdada12bb65dbbf9be28201d0",
+    "entry_hash": "94dede74b5393d56db1eb442fefa9355af5c0dc5e4b56599fd9f916e459b701e"
+  },
+  {
+    "id": "LEDGER-000112",
+    "action_type": "complaint_filed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-DEMO-04",
+    "metadata": {
+      "demo_cluster": true,
+      "severity": 5
+    },
+    "timestamp": "2026-03-16T08:00:00",
+    "prev_hash": "94dede74b5393d56db1eb442fefa9355af5c0dc5e4b56599fd9f916e459b701e",
+    "entry_hash": "7b8b5fd71e00800b07cf641d4a863c443662a8e4d0dcef432a5d257c54ba489c"
+  },
+  {
+    "id": "LEDGER-000113",
+    "action_type": "complaint_filed",
+    "actor_id": "CITIZEN",
+    "entity_id": "CMP-DEMO-05",
+    "metadata": {
+      "demo_cluster": true,
+      "severity": 5
+    },
+    "timestamp": "2026-03-17T10:00:00",
+    "prev_hash": "7b8b5fd71e00800b07cf641d4a863c443662a8e4d0dcef432a5d257c54ba489c",
+    "entry_hash": "1af72cfaae7d58c6c62832f632ecbd26ffa1417ba3f072abf83261494feb115d"
+  },
+  {
+    "id": "LEDGER-000114",
+    "action_type": "moral_alert_sent",
+    "actor_id": "SYSTEM",
+    "entity_id": "CMP-DEMO-CLUSTER",
+    "metadata": {
+      "grief_score": 520,
+      "threshold": "CRITICAL"
+    },
+    "timestamp": "2026-03-20T04:00:00",
+    "prev_hash": "1af72cfaae7d58c6c62832f632ecbd26ffa1417ba3f072abf83261494feb115d",
+    "entry_hash": "7073b8fece0bd2404ab564d76797ad78b6a5c9aae125b603159406f6fc724ec0"
+  },
+  {
+    "id": "LEDGER-000115",
+    "action_type": "cluster_detected",
+    "actor_id": "SYSTEM",
+    "entity_id": "CLUSTER-CP-2026-001",
+    "metadata": {
+      "size": 8,
+      "type": "drainage",
+      "historical_match": "HIST-001",
+      "similarity": 0.82
+    },
+    "timestamp": "2026-03-20T05:00:00",
+    "prev_hash": "7073b8fece0bd2404ab564d76797ad78b6a5c9aae125b603159406f6fc724ec0",
+    "entry_hash": "ad6054612e90a5162962763a3571672f5c892c10366dd5056784be035b29f310"
+  }
+]

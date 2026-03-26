@@ -1,0 +1,110 @@
+[
+  {
+    "rank": 1,
+    "node_id": "NODE-001",
+    "node_name": "Storm Drain — Rajiv Chowk N",
+    "type": "drain",
+    "predicted_failure_probability": 0.91,
+    "predicted_surge_days": 3,
+    "signals_firing": [
+      "complaint_acceleration",
+      "low_health_score",
+      "no_maintenance_310d",
+      "rain_forecast_72h"
+    ],
+    "confidence_tier": "HIGH",
+    "recommended_action": "Emergency desilt inspection — assign within 24 hours",
+    "affected_population_est": 18000,
+    "sensitive_zones_nearby": [
+      "Rajiv Chowk Metro Station",
+      "Outer Circle Market"
+    ],
+    "historical_match": "HIST-001",
+    "lat": 28.6341,
+    "lng": 77.2195
+  },
+  {
+    "rank": 2,
+    "node_id": "NODE-024",
+    "node_name": "Road Segment — Outer Circle NE",
+    "type": "road",
+    "predicted_failure_probability": 0.74,
+    "predicted_surge_days": 5,
+    "signals_firing": [
+      "cascade_from_NODE-001",
+      "health_score_worsening",
+      "rain_forecast_72h"
+    ],
+    "confidence_tier": "HIGH",
+    "recommended_action": "Road inspection for subgrade integrity — inspect if NODE-001 confirmed",
+    "affected_population_est": 12000,
+    "sensitive_zones_nearby": [
+      "Barakhamba Metro",
+      "Connaught Place outer market"
+    ],
+    "lat": 28.6352,
+    "lng": 77.2208
+  },
+  {
+    "rank": 3,
+    "node_id": "NODE-048",
+    "node_name": "Transformer — Barakhamba Rd Junction",
+    "type": "transformer",
+    "predicted_failure_probability": 0.51,
+    "predicted_surge_days": 9,
+    "signals_firing": [
+      "cascade_from_NODE-024",
+      "water_exposure_risk"
+    ],
+    "confidence_tier": "MEDIUM",
+    "recommended_action": "Electrical inspection to check conduit waterproofing",
+    "affected_population_est": 8000,
+    "sensitive_zones_nearby": [
+      "Barakhamba offices",
+      "Underground market power supply"
+    ],
+    "lat": 28.6345,
+    "lng": 77.2228
+  },
+  {
+    "rank": 4,
+    "node_id": "NODE-120",
+    "node_name": "Sewer Main — Janpath Service Lane",
+    "type": "sewer_main",
+    "predicted_failure_probability": 0.63,
+    "predicted_surge_days": 6,
+    "signals_firing": [
+      "complaint_velocity_rising",
+      "age_years_high"
+    ],
+    "confidence_tier": "MEDIUM",
+    "recommended_action": "CCTV inspection of sewer line — schedule within 3 days",
+    "affected_population_est": 9500,
+    "sensitive_zones_nearby": [
+      "Janpath Market",
+      "Service lane residences"
+    ],
+    "lat": 28.627,
+    "lng": 77.2189
+  },
+  {
+    "rank": 5,
+    "node_id": "NODE-109",
+    "node_name": "Garbage Zone — Palika Bazaar Service Exit",
+    "type": "garbage_zone",
+    "predicted_failure_probability": 0.55,
+    "predicted_surge_days": 4,
+    "signals_firing": [
+      "collection_miss_pattern",
+      "seasonal_heat"
+    ],
+    "confidence_tier": "MEDIUM",
+    "recommended_action": "Verify collection schedule adherence — check last 7 days logs",
+    "affected_population_est": 6000,
+    "sensitive_zones_nearby": [
+      "Palika Bazaar underground market"
+    ],
+    "lat": 28.6305,
+    "lng": 77.2162
+  }
+]

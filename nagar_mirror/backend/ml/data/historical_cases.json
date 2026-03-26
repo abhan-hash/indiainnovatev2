@@ -1,0 +1,72 @@
+[
+  {
+    "id": "HIST-001",
+    "title": "Rajiv Chowk Drain Overflow — July 2022",
+    "description": "Recurring storm drain overflow at Outer Circle NE corner causing road damage and transformer risk.",
+    "root_cause": "Primary storm drain SD-RC-04 had not been desilted for 22 months. Blockage caused cascading overflow into road foundation, weakening subgrade near Barakhamba transformer vault.",
+    "start_date": "2022-07-03T00:00:00",
+    "resolved_date": "2022-07-19T00:00:00",
+    "resolution_days": 16,
+    "contractor": "Mehta Infrastructure Pvt Ltd",
+    "complaint_count": 11,
+    "departments": [
+      "drainage",
+      "roads",
+      "electricity"
+    ],
+    "zone": "outer_roads",
+    "lat_center": 28.6341,
+    "lng_center": 77.22,
+    "fingerprint_vector_hint": "high_velocity_spatial_cluster + seasonal_monsoon + drain_road_transformer_chain",
+    "similarity_to_current": 0.82,
+    "outcome": "Desilting of SD-RC-04 + road patching + transformer inspection. No recurrence for 14 months.",
+    "lesson": "Desilting cycle must be completed before June 15 every year for outer circle drains.",
+    "ward_id": "WARD-CP-01"
+  },
+  {
+    "id": "HIST-002",
+    "title": "Palika Bazaar Transformer Chain Failure — November 2023",
+    "description": "Three consecutive transformer failures in 9 days affecting the Palika Bazaar underground market and adjacent street lighting.",
+    "root_cause": "Water ingress from cracked road surface above underground cable conduit. Original road repair in Aug 2023 by subcontractor did not seal conduit entry points.",
+    "start_date": "2023-11-01T00:00:00",
+    "resolved_date": "2023-11-24T00:00:00",
+    "resolution_days": 23,
+    "contractor": "Singh Electricals (subcontractor: Kapur Road Works)",
+    "complaint_count": 19,
+    "departments": [
+      "electricity",
+      "roads"
+    ],
+    "zone": "inner_circle",
+    "lat_center": 28.6317,
+    "lng_center": 77.2173,
+    "fingerprint_vector_hint": "road_water_ingress + transformer_cascade + underground_infrastructure",
+    "similarity_to_current": 0.61,
+    "outcome": "All three transformers replaced. Cable conduit resealed. Road surface redone with proper conduit protection.",
+    "lesson": "Any road repair above underground electrical infrastructure requires electrical dept sign-off before closure.",
+    "ward_id": "WARD-CP-01"
+  },
+  {
+    "id": "HIST-003",
+    "title": "Janpath Service Lane Sanitation Collapse — March 2024",
+    "description": "Garbage not collected from Janpath service lane for 11 consecutive days leading to disease vector complaints and stray dog surge.",
+    "root_cause": "Vehicle breakdown combined with route reassignment after staff transfer. No backup protocol. Complaints were filed but routed to wrong sub-department (construction wing instead of SWM).",
+    "start_date": "2024-03-04T00:00:00",
+    "resolved_date": "2024-03-18T00:00:00",
+    "resolution_days": 14,
+    "contractor": "MCD Sanitation Zone 4",
+    "complaint_count": 27,
+    "departments": [
+      "waste",
+      "health"
+    ],
+    "zone": "service_lanes",
+    "lat_center": 28.627,
+    "lng_center": 77.2189,
+    "fingerprint_vector_hint": "missed_collection_velocity + health_vector_escalation + misrouting",
+    "similarity_to_current": 0.74,
+    "outcome": "Emergency collection deployed day 12. Routing error flagged. Service lane added to priority watch list.",
+    "lesson": "Service lane waste complaints must go directly to SWM. Misrouting to construction wing is a known failure mode.",
+    "ward_id": "WARD-CP-01"
+  }
+]
